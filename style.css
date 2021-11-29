@@ -16,6 +16,7 @@ header{
 .logo{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-family: cursive;
+    margin-left: -10px;
 }
 a{
     color: #fff;
@@ -69,32 +70,33 @@ footer{
 }
 @media (max-width: 440px) {
     body{
-        margin: 0 auto;
+        margin: 0;
+        width: 440px;
     }
     header{
-        max-width: 100%;
+        width: 79%;
     }
     main{
-        max-width: 100%;
-    }
-    .first__tittle{
-        padding-left: 21px;
+        width: 100%;
     }
     .first__paragraph{
-        width: 400px;
-        text-align: justify;
+        width: 362px;
     }
     .first__card{
-        width: 400px;
+        width: 359px;
         height: 200px;
     }
     .card__paragraph{
-        padding-top: 17px;
+        padding-top: 8px;
+        width: 343px;
     }
     footer{
         position: relative;
         top: 64%;
-        max-width: 100%;
+        width: 91.4%;
+        width: 397px;
+        left: 0;
+        margin-left: 0px;
     }
     .footer__paragraph{
         padding-top: 15px;
