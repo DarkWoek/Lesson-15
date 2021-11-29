@@ -74,6 +74,9 @@ footer{
     header{
         max-width: 100%;
     }
+    main{
+        max-width: 100%;
+    }
     .first__tittle{
         padding-left: 21px;
     }
@@ -91,7 +94,7 @@ footer{
     footer{
         position: relative;
         top: 64%;
-        width: 91.4%;
+        max-width: 100%;
     }
     .footer__paragraph{
         padding-top: 15px;
