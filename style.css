@@ -130,7 +130,11 @@ a:not(:last-child){
     }
     .first__card{
         height: 200px;
-        width: 400px;
+        width: 47%;
+    }
+    .card__paragraph{
+        width: 96%;
+        text-align: center;
     }
     .footer{
         position: relative;
