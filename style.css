@@ -106,7 +106,40 @@ a:not(:last-child){
         padding-left: 2px;
     }
 }
-@media (max-width:1024px) {
+@media (max-width:768px) {
+    body{
+        width: 100%;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .first > .footer {
+        justify-content: flex-end;
+    }
+    .first__blocks{
+        display: flex;
+        justify-content: center;
+    }
+    .first__paragraph{
+        width: 90%;
+    }
+    .first__card{
+        height: 200px;
+        width: 420px;
+    }
+    .footer{
+        position: relative;
+        top: 568px;
+        width: 100%;
+        text-align: center;
+        right: 22px;
+    }
+    
+
+}
+@media (min-width:1024px) {
     main{
         display: flex;
     }
