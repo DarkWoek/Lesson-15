@@ -59,9 +59,10 @@ a:not(:last-child){
     width: 390px;
     padding-top: 30px;
 }
-footer{
+.footer{
     background-color: #000;
     height: 100px;
+    margin-left: 0px;
     margin:96px  23px 0 23px;
 }
 .footer__paragraph{
@@ -91,7 +92,7 @@ footer{
         padding-top: 8px;
         width: 343px;
     }
-    footer{
+    .footer{
         position: relative;
         top: 64%;
         width: 91.4%;
@@ -103,5 +104,28 @@ footer{
     .footer__paragraph{
         padding-top: 15px;
         padding-left: 2px;
+    }
+}
+@media (max-width:1024px) {
+    main{
+        display: flex;
+    }
+    .first{
+        width: 70%;
+    }
+    .first__card{
+        width: 303px;
+        height: 185px;
+    }
+    .card__paragraph{
+        width: fit-content;
+        margin-top: -10px;
+    }
+    .footer{
+        width: 32%;
+        height: 796px;
+        margin-right: 5px;
+        margin-top: 30px;
+        text-align: center;
     }
 }
